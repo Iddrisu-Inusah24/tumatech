@@ -39,3 +39,15 @@ document.addEventListener("DOMContentLoaded", () => {
         hero.classList.add("hero-visible");
     }
 });
+
+
+document.addEventListener("DOMContentLoaded", () => {
+    const toggle = document.querySelector(".nav-toggle");
+    const navLinks = document.querySelector(".nav-links");
+
+    if (!toggle || !navLinks) return;
+
+    toggle.addEventListener("click", () => {
+        navLinks.classList.toggle("show");
+    });
+});
