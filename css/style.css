@@ -19,9 +19,7 @@ main {
 }
 
 
-/* =========================
-   NAVBAR
-========================= */
+/* ===== NAVBAR ===== */
 .navbar {
     width: 100%;
     padding: 1.2rem 6%;
@@ -42,21 +40,11 @@ main {
 .logo {
     text-decoration: none;
     font-weight: 800;
-    font-size: 1.4rem; /* FIXED */
+    font-size: 1.1rem;
     color: #e9074b;
 }
 
-/* NAV TOGGLE (HAMBURGER) */
-.nav-toggle {
-    display: none;
-    font-size: 1.8rem;
-    background: none;
-    border: none;
-    cursor: pointer;
-    color: #111;
-}
-
-/* NAV LINKS */
+/* NAV LINKS (DESKTOP) */
 .nav-links {
     list-style: none;
     display: flex;
@@ -83,12 +71,7 @@ main {
     transition: width 0.3s ease;
 }
 
-/* Hover effect */
-.nav-links a:hover::after {
-    width: 100%;
-}
-
-/* Active link */
+.nav-links a:hover::after,
 .nav-links a.active::after {
     width: 100%;
 }
@@ -100,31 +83,46 @@ main {
     box-shadow: 0 2px 12px rgba(0,0,0,0.06);
 }
 
-/* =========================
-   MOBILE NAV
-========================= */
+/* ===== TOGGLE BUTTON ===== */
+.nav-toggle {
+    display: none;
+    font-size: 1.8rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* ===== MOBILE NAV ===== */
 @media (max-width: 768px) {
+
     .nav-toggle {
         display: block;
+        color: #111;
     }
 
     .nav-links {
         position: absolute;
         top: 100%;
-        left: 0;
-        width: 100%;
-        background: rgba(209, 216, 209, 0.98);
+        right: 6%;
+        background: #fff;
         flex-direction: column;
-        align-items: center;
-        gap: 1.5rem;
-        padding: 2rem 0;
+        gap: 1.2rem;
+        padding: 1.2rem;
+        border-radius: 10px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+
+        /* 🔴 HIDDEN BY DEFAULT */
         display: none;
     }
 
+    /* ✅ SHOWN WHEN TOGGLED */
     .nav-links.show {
         display: flex;
     }
 }
+
+
+
 
 /* =========================
    HERO SECTION
