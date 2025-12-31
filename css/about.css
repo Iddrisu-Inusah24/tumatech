@@ -1,0 +1,61 @@
+/* ===== PAGE WRAPPER ===== */
+.page {
+    padding-top: 7rem;
+}
+
+/* ===== ABOUT PAGE ===== */
+.about-page {
+    padding: 4.5rem 6%;
+    background-color: #ecf2f5;
+}
+
+.about-page-container {
+    max-width: 760px;
+    margin: auto;
+}
+
+/* Title */
+.about-page h1 {
+    font-size: 2.6rem;
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+    letter-spacing: -0.02em;
+}
+
+/* Lead paragraph */
+.about-page .lead {
+    font-size: 1.5rem;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 2.2rem;
+}
+
+/* Body text */
+.about-page p {
+    font-size: 1.4rem;
+    line-height: 1.85;
+    margin-bottom: 1.6rem;
+    color: #333;
+}
+
+/* Optional info list */
+.about-facts {
+    list-style: none;
+    padding: 0;
+    margin: 2.5rem 0;
+    border-left: 3px solid #58f160;
+    padding-left: 1.2rem;
+}
+
+.about-facts li {
+    margin-bottom: 0.7rem;
+    font-size: 1rem;
+    color: #333;
+}
+
+.about-facts strong {
+    font-weight: 600;
+}
+.about-page-container p:last-child {
+    margin-bottom: 0;
+}

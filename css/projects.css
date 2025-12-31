@@ -1,0 +1,102 @@
+/* ===== PROJECTS PAGE ===== */
+.projects-page {
+    padding: 4.5rem 6%;
+}
+
+.projects-container {
+    max-width: 900px;
+    margin: auto;
+}
+
+.projects-page h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.projects-page .lead {
+    font-size: 1.3rem;
+    color: #2c2727;
+    margin-bottom: 3rem;
+    max-width: 700px;
+}
+
+/* Grid */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 2rem;
+}
+
+/* Cards */
+.project-card {
+    padding: 1.8rem;
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+    background: #edf0f1;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 28px rgba(0,0,0,0.06);
+}
+
+.project-card h3 {
+    font-size: 1.35rem;
+    margin-bottom: 0.8rem;
+}
+
+.project-card p {
+    font-size: 1.3rem;
+    line-height: 1.7;
+    margin-bottom: 1.2rem;
+    color: #080707;
+}
+
+/* Stack tag */
+.project-card .stack {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #4728b8;
+}
+
+
+/* ===== PROJECT LINKS ===== */
+.project-links {
+    margin-top: 1.4rem;
+    display: flex;
+    gap: 1.2rem;
+}
+
+.project-link {
+    font-size: 0.85rem;
+    text-decoration: none;
+    color: #4728b8;
+    font-weight: 500;
+    position: relative;
+}
+
+.project-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0%;
+    height: 2px;
+    background-color: #4728b8;
+    transition: width 0.3s ease;
+}
+
+.project-link:hover::after {
+    width: 100%;
+}
+
+/* Disabled (placeholder) */
+.project-link.disabled {
+    color: #999;
+    pointer-events: none;
+}
+
+.project-link.disabled::after {
+    display: none;
+}

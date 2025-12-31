@@ -1,0 +1,62 @@
+/* ===== CONTACT PAGE ===== */
+.contact-page {
+    padding: 4.5rem 6%;
+}
+
+.contact-container {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.contact-page h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.contact-page .lead {
+    font-size: 1.5rem;
+    color: #0e0c0c;
+    margin-bottom: 2.5rem;
+}
+
+/* Button */
+.contact-btn {
+    display: inline-block;
+    padding: 0.9rem 1.8rem;
+    border-radius: 30px;
+    background: #4728b8;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-bottom: 3rem;
+    transition: background 0.3s ease;
+}
+
+.contact-btn:hover {
+    background: #341f8c;
+}
+
+/* Social Icons */
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.6rem;
+}
+
+.social {
+    font-size: 1.4rem;
+    color: #4728b8;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social:hover {
+    transform: translateY(-4px);
+    color: #341f8c;
+}
+
+/* Disabled */
+.social.disabled {
+    color: #aaa;
+    pointer-events: none;
+}
