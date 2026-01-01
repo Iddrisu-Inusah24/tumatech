@@ -174,8 +174,8 @@ body {
 ===================== */
 @media (max-width: 768px) {
     .page {
-        padding: 6.5rem 1rem 3rem;
-        /* padding: 5.2rem 6%; */
+        padding: 1.5rem 1rem 3rem;
+        
     }
 
     .program-header {
@@ -236,4 +236,12 @@ body {
     background: #eab308;
     color: var(--text);
     transform: translateY(-2px);
+}
+/* =====================
+   FIX: CONTENT UNDER NAV (MOBILE)
+===================== */
+@media (max-width: 768px) {
+    main.page {
+        padding-top: 6rem; /* space for navbar height */
+    }
 }
