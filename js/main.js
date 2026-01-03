@@ -11,7 +11,7 @@ fetch("components/nav.html")
         if (toggle && navLinks) {
             toggle.addEventListener("click", () => {
                 navLinks.classList.toggle("show");
-            });
+            });  
 
             // Close menu when a link is clicked (mobile UX)
             navLinks.querySelectorAll("a").forEach(link => {
