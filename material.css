@@ -1,0 +1,120 @@
+/* =====================
+   MATERIALS PAGE
+===================== */
+.materials-page {
+    max-width: 900px;
+}
+
+/* =====================
+   HEADER
+===================== */
+.materials-header {
+    margin-bottom: 3.5rem;
+}
+
+.materials-header h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-bottom: 0.6rem;
+    color: var(--text);
+}
+
+.materials-header p {
+    color: var(--muted);
+    max-width: 70ch;
+    font-size: 1.5rem;
+}
+
+/* =====================
+   SESSION BLOCK
+===================== */
+.session-block {
+    margin-bottom: 3rem;
+}
+
+.session-label {
+    display: inline-block;
+    font-size: 1.9rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--primary-dark);
+    margin-bottom: 0.6rem;
+}
+
+.session-block h2 {
+    font-size: 1.4rem;
+    margin-bottom: 0.6rem;
+}
+
+.session-text {
+    color: var(--muted);
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+    max-width: 75ch;
+}
+
+/* =====================
+   SUBHEADINGS
+===================== */
+.session-block h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 1.6rem 0 0.6rem;
+    color: var(--text);
+}
+
+/* =====================
+   LISTS
+===================== */
+.session-block ul {
+    padding-left: 1.2rem;
+}
+
+.session-block li {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+
+/* =====================
+   DOWNLOADS
+===================== */
+.download-list {
+    list-style: none;
+    padding-left: 0;
+    color: rgb(212, 18, 67);
+}
+
+.download-list li {
+    margin-bottom: 0.6rem;
+}
+
+.download-list a {
+    text-decoration: none;
+    font-weight: 600;
+    
+    color: var(--primary);
+}
+
+.download-list a:hover {
+    text-decoration: underline;
+}
+
+/* =====================
+   DIVIDER
+===================== */
+.section-divider {
+    border: none;
+    border-top: 1px solid #e5e7eb;
+    margin: 3rem 0;
+}
+
+/* =====================
+   MUTED
+===================== */
+.muted {
+    font-weight: 400;
+    color: var(--muted);
+    font-size: 1.5rem;
+}

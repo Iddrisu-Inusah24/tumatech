@@ -207,15 +207,7 @@ body {
         text-align: center;
     }
 }
-@media (max-width: 900px) {
-    .data-sidebar {
-        display: none;
-    }
 
-    .data-layout {
-        padding-top: 0;
-    }
-}
 
 /* =============================
    DOWNLOAD LINKS
